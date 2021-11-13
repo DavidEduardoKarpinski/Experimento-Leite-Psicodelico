@@ -1,0 +1,164 @@
+.estilo-geral {
+    overflow-x: hidden;
+}
+
+header {
+    background: url('Img/perfect-bg.jpg') no-repeat;
+    background-size: cover;
+    padding-top: 1rem;
+    padding-bottom: .75em;
+}
+
+.titulo-principal {
+    color: #104E8B;
+    text-align: center;
+    font-weight: 550;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-transform: uppercase;
+}
+
+.dados-iniciais {
+    color: #104E8B;
+    text-align: center;
+    font-weight: 550;
+    font-family: 'Noto Sans Display', sans-serif;
+    line-height: 1.8;
+}
+
+.p-exibicao {
+    margin: 2rem auto 1.7rem;
+}
+
+.navbar {
+    text-align: center;
+    background-color: #104E8B;
+    padding: 5em auto 3em auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-family: 'Noto Sans Display', sans-serif;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-right: 6rem;
+    color: antiquewhite;
+    border-left: 2px solid #0969C8;
+    border-right: 2px solid #0969C8;
+    padding: .4em 1.8em;
+    transition: 0.1s all;
+}
+
+.navbar a:hover {
+    color: #5493d1;
+    cursor: pointer;
+}
+
+.container-navItems {
+    padding: .5em;
+}
+
+.img-experimento {
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 3em;
+    border: none;
+    border-radius: 10px;
+}
+
+.fieldset {
+    background-color: #bae2ee;
+}
+
+.titulo-secundario {
+    font-family: 'Noto Sans Display', sans-serif;
+    font-size: 1.6em;
+    color: #104E8B;
+    font-weight: 550;
+    text-transform: uppercase;
+    margin-top: 2em;
+    margin-bottom: 1em;
+}
+
+.terceiro-titulo {
+    font-size: 1.4em;
+    margin-left: 1em;
+    margin-top: 1.5em;
+    margin-bottom: .9em;
+}
+
+.procedimentos-ul {
+    font-size: 1.2em;
+    line-height: 1.2;
+    margin-left: 2em;
+}
+
+.texto-observacao {
+    font-size: 1.2em;
+    margin-left: 1em;
+    margin-top: 1.3em;
+    margin-bottom: 5em;
+    line-height: 1.2;
+}
+
+.video {
+    margin-left: 22.5555555%;
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #104E8B;
+    padding: 3em;
+    color: #bae2ee;
+    line-height: 1.6;
+}
+
+.subtitulo {
+    margin-left: calc(5em - 1em);
+    text-decoration: underline;
+}
+
+.rdp-list,
+.rdp-p,
+.logotipo {
+    display: inline-block;
+    margin-left: 5em;
+    vertical-align: top;
+}
+
+.rdp-list {
+    margin-left: calc(5em - 1em);
+    margin-right: 1em;
+}
+
+.rdp-p {
+    margin-left: 8em;
+}
+
+.logo {
+    margin-left: 20em;
+}
+
+.img-leite,
+.txt-cmp-leite {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.img-leite {
+    height: 325px;
+}
+
+.txt-cmp-leite {
+    margin-left: 80px;
+    margin-top: none !important;
+}
+
+#cmp-leite {
+    background-color: aliceblue;
+    padding-top: 3em;
+    padding-left: 2em;
+}
+
+.cmp-p {
+    margin-left: none;
+}
